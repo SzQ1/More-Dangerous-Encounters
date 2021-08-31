@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mx_dangerous_encounter",
+    "type": "map_extra",
+    "name": "Dangerous Encounter",
+    "description": "Something was here.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "dangerous_encounter" },
+    "sym": "x",
+    "color": "yellow",
+    "autonote": false
+  }
+]

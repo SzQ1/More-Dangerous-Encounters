@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "More_Dangerous_Encounters",
+    "name": "More Dangerous Encounters",
+    "authors": [ "SzQ" ],
+    "maintainers": [ "SzQ" ],
+    "description": "Adds spawning locations for dangerous enemies like Flesh golems, Mutants, Dogs, Shoggoths, etc.  It seems to work even.  Code based on No_Hope mod by Night_Pryanik ",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

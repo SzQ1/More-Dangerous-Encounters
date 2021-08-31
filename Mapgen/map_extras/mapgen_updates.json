@@ -1,0 +1,239 @@
+[
+  {
+    "name": "GROUP_DANGEROUS_ENCOUNTER_FLESH",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_flesh_angel", "freq": 5, "cost_multiplier": 0 },
+	  { "monster": "mon_flesh_golem", "freq": 100, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_DANGEROUS_ENCOUNTER_THING",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_dog_thing", "freq": 100, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_DANGEROUS_ENCOUNTER_SHOGGOTH",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_shoggoth", "freq": 100, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_DANGEROUS_ENCOUNTER_MUTANT",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+	  { "monster": "mon_mutant_experimental", "freq": 100, "cost_multiplier": 0 },
+      { "monster": "mon_mutant_evolved", "freq": 15, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_DANGEROUS_ENCOUNTER",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_vortex", "freq": 20, "cost_multiplier": 0 },
+	  { "monster": "mon_spider_cellar_giant", "freq": 70, "cost_multiplier": 0 },
+      { "monster": "mon_spider_jumping_giant", "freq": 50, "cost_multiplier": 0 },
+      { "monster": "mon_jabberwock", "freq": 5, "cost_multiplier": 0 },
+      { "monster": "mon_sludge_crawler", "freq": 10, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "dangerous_encounter",
+    "object": { "place_nested": [ { "chunks": [ "dangerous_encounter" ], "x": 0, "y": 0 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dangerous_encounter",
+    "object": {
+	  "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { " ": "t_null" },
+	  "place_monsters": [ { "monster": "GROUP_DANGEROUS_ENCOUNTER_FLESH", "density": 0.3, "x": [ 5, 19 ], "y": [ 5, 19 ] } ] 
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dangerous_encounter",
+    "object": {
+	  "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { " ": "t_null" },
+	  "place_monsters": [ { "monster": "GROUP_DANGEROUS_ENCOUNTER_THING", "density": 0.4, "x": [ 5, 19 ], "y": [ 5, 19 ] } ] 
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dangerous_encounter",
+    "object": {
+	  "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { " ": "t_null" },
+	  "place_monsters": [ { "monster": "GROUP_DANGEROUS_ENCOUNTER_SHOGGOTH", "density": 0.1, "x": [ 5, 19 ], "y": [ 5, 19 ] } ] 
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dangerous_encounter",
+    "object": {
+	  "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { " ": "t_null" },
+	  "place_monsters": [ { "monster": "GROUP_DANGEROUS_ENCOUNTER_MUTANT", "density": 0.3, "x": [ 5, 19 ], "y": [ 5, 19 ] } ] 
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dangerous_encounter",
+    "object": {
+	  "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { " ": "t_null" },
+	  "place_monsters": [ { "monster": "GROUP_DANGEROUS_ENCOUNTER", "density": 0.3, "x": [ 5, 19 ], "y": [ 5, 19 ] } ] 
+    }
+  }
+]
